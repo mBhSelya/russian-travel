@@ -1,0 +1,14 @@
+.intro__text {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 163%;
+    margin: 40px 0 33px;
+}
+
+@media screen and (max-width: 720px) {
+    .photo-grid {
+        margin: 40px 0 34px;
+    }    
+}

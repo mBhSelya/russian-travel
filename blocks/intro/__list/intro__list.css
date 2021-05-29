@@ -1,0 +1,9 @@
+.intro__list {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    list-style: none;
+    padding: 0;
+}

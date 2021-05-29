@@ -1,0 +1,33 @@
+.footer__link {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 18px 0 0;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    transition-property: opacity;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.footer__link:hover {
+    opacity: .8;
+}
+
+.footer__link:last-of-type {
+    margin: 0;
+}
+
+@media screen and (max-width: 720px) {
+    .footer__link {
+        margin: 0 0 32px;
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .footer__link:last-of-type {
+        margin: 0;
+    }
+}

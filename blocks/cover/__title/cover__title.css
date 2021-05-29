@@ -1,0 +1,32 @@
+.cover__title {
+    z-index: 1;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
+    max-width: 560px;
+    margin: 0 0 32px;
+    padding: 245px 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__subtitle {
+        padding: 195px 0 0;
+    }
+}
+
+@media screen and (max-width: 928px) {
+    .cover__subtitle {
+        padding: 115px 0 0;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+        padding: 33px 0 0;
+    }    
+}

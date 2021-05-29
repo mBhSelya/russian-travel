@@ -1,0 +1,27 @@
+.place__paragraph {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    margin: 0 0 26px;
+    max-width: 484px;
+}
+
+@media screen and (max-width: 928px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .place__paragraph {
+        max-width: 320px;
+        padding: 0 16px;
+    }
+
+    .place__paragraph:last-of-type {
+        padding: 0 16px 50px;
+    }
+}
