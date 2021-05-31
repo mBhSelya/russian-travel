@@ -18,3 +18,15 @@
         margin: 64px auto 0;
     }
 }
+
+@media screen and (min-width: 1184px) {
+    .intro {
+        padding-left: calc((100vw - 984px)/2);
+    }    
+}
+
+@media screen and (max-width: 1184px) and (min-width: 928px) {
+    .intro {
+        padding-left: calc((100vw - 928px)/2);
+    }
+}

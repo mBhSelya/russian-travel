@@ -2,8 +2,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     gap: 16px;
-    min-width: 1184px;
-    margin: 92px 0 92px -100px;
+    max-width: 1184px;
+    margin: 92px auto 92px;
     justify-content: center;
 }
 
@@ -12,6 +12,7 @@
         min-width: 320px;
         gap: 14px;
         margin: 92px auto;
+        padding: 0 48px;
     }
 }
 
