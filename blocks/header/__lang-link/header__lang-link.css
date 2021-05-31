@@ -12,6 +12,10 @@
     transition-timing-function: ease;
 }
 
+.header__lang-link:last-of-type {
+    margin: 0;
+}
+
 .header__lang-link:hover {
     opacity: .8;
 }

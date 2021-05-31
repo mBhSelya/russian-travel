@@ -8,25 +8,13 @@
     text-align: center;
     max-width: 560px;
     margin: 0 0 32px;
-    padding: 245px 0 0;
-}
-
-@media screen and (max-width: 1024px) {
-    .cover__subtitle {
-        padding: 195px 0 0;
-    }
-}
-
-@media screen and (max-width: 928px) {
-    .cover__subtitle {
-        padding: 115px 0 0;
-    }
 }
 
 @media screen and (max-width: 720px) {
     .cover__title {
         font-size: 32px;
         line-height: 35px;
-        padding: 33px 0 0;
+        margin: 0 0 16px;
+        max-width: 255px;
     }    
 }

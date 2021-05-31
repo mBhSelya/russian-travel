@@ -5,7 +5,6 @@
     font-size: 18px;
     line-height: 29px;
     margin: 0 0 26px;
-    max-width: 484px;
 }
 
 @media screen and (max-width: 928px) {
@@ -17,7 +16,6 @@
 
 @media screen and (max-width: 720px) {
     .place__paragraph {
-        max-width: 320px;
         padding: 0 16px;
     }
 
